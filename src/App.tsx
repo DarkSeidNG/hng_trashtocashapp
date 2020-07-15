@@ -3,6 +3,10 @@ import header from './assets/img/header.png';
 import about from './assets/img/about.png';
 import footer from './assets/img/footer.png';
 import logo from './assets/img/logo.png';
+import options from './assets/img/options.png';
+import scan from './assets/img/scan.png';
+import sell from './assets/img/sell.png';
+import takepic from './assets/img/takepic.png';
 import './assets/css/App.css';
 
 function App() {
@@ -30,7 +34,7 @@ function App() {
                     </div>
                     <div className="d-flex subscribe-form">
                         <div className="d-flex">
-                            <input className="subscribe-input"/>
+                            <input className="subscribe-input" placeholder="Enter Your Email"/>
                             <button className="subscribe-button">Subscribe</button>
                         </div>
                         <button className="buy-button">Buy App</button>
@@ -65,17 +69,25 @@ function App() {
                     How this works
                 </div>
                 <div className="content row">
-                    <div className="col-md-3">
-
+                    <div className="col-md-3 pic-items">
+                        <img src={takepic} alt="img" />
+                        <div className="hiw-title">Take a picture</div>
+                        <div className="hiw-content">Take a picture of trash item</div>
                     </div>
-                    <div className="col-md-3">
-
+                    <div className="col-md-3 pic-items">
+                        <img src={scan} alt="img" />
+                        <div className="hiw-title">Click on Scan</div>
+                        <div className="hiw-content">Click on Scan Button.</div>
                     </div>
-                    <div className="col-md-3">
-
+                    <div className="col-md-3 pic-items">
+                        <img src={options} alt="img" />
+                        <div className="hiw-title">Available options</div>
+                        <div className="hiw-content">Chose available market options for your trash.</div>
                     </div>
-                    <div className="col-md-3">
-
+                    <div className="col-md-3 pic-items">
+                        <img src={sell} alt="img" />
+                        <div className="hiw-title">Sell</div>
+                        <div className="hiw-content">Cash out on trash.</div>
                     </div>
                 </div>
             </div>
@@ -97,7 +109,7 @@ function App() {
                         </div>
                         <div className="d-flex subscribe-form">
                             <div className="d-flex">
-                                <input className="subscribe-input"/>
+                                <input className="subscribe-input" placeholder="Enter Your Email"/>
                                 <button className="subscribe-button">Subscribe</button>
                             </div>
                         </div>

@@ -100,6 +100,41 @@
 .how-it-works {
   background-color: #D0E6C8;
 }
+.how-it-works .content-right {
+  margin-top: 100px;
+}
+.how-it-works .content {
+  margin-top: 100px;
+  margin-bottom: 110px;
+}
+.pic-items {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.pic-items img {
+  width: 284px;
+  height: 382px;
+  margin-right: -60px;
+}
+.hiw-title {
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: #067106;
+  margin-top: 32px;
+  margin-bottom: 12px;
+}
+.hiw-content {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  width: 160px;
+  color: rgba(0, 70, 0, 0.71);
+}
 
 .footer .content-right {
   height: 580px;
