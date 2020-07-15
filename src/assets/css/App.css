@@ -76,6 +76,10 @@
   border-radius: 0 4px 4px 0;
   outline: none !important;
 }
+.subscribe-button:disabled,
+.subscribe-button[disabled] {
+  color: rgba(0, 0, 0, 0.65);
+}
 .buy-button {
   margin-left: 40px;
   width: 137px;

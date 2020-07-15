@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import header from './assets/img/header.png';
 import about from './assets/img/about.png';
 import footer from './assets/img/footer.png';
@@ -10,6 +10,11 @@ import takepic from './assets/img/takepic.png';
 import './assets/css/App.css';
 
 function App() {
+    const [email, setEmail] = useState('');
+
+    const validateEmail = () => {
+        return (!(/^[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[A-Za-z]+$/.test(email)))
+   };
   return (
     <div className="app">
         <section className="section header" >
@@ -34,8 +39,8 @@ function App() {
                     </div>
                     <div className="d-flex subscribe-form">
                         <div className="d-flex">
-                            <input className="subscribe-input" placeholder="Enter Your Email"/>
-                            <button className="subscribe-button">Subscribe</button>
+                            <input className="subscribe-input" placeholder="Enter Your Email" onChange={(e) => setEmail(e.currentTarget.value)}/>
+                            <button className="subscribe-button" disabled={validateEmail()}>Subscribe</button>
                         </div>
                         <button className="buy-button">Buy App</button>
                     </div>
@@ -109,8 +114,8 @@ function App() {
                         </div>
                         <div className="d-flex subscribe-form">
                             <div className="d-flex">
-                                <input className="subscribe-input" placeholder="Enter Your Email"/>
-                                <button className="subscribe-button">Subscribe</button>
+                                <input className="subscribe-input" placeholder="Enter Your Email" onChange={(e) => setEmail(e.currentTarget.value)}/>
+                                <button className="subscribe-button" disabled={validateEmail()}>Subscribe</button>
                             </div>
                         </div>
                     </div>
