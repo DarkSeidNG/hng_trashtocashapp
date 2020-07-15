@@ -1,0 +1,114 @@
+.section {
+  width: 100%;
+  min-height: 780px;
+  overflow: hidden;
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+  position: absolute;
+  width: 180px;
+  height: 30px;
+  left: 100px;
+  top: 40px;
+}
+.banner-image {
+  width: 100%;
+  position: absolute;
+}
+.content-right {
+  margin-top: 155px;
+  padding-right: 45px !important;
+}
+.copyright {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.59);
+}
+.title {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 49px;
+  color: #067106;
+}
+.content {
+  margin-top: 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  color: rgba(249, 249, 249, 0.74);
+}
+.subscribe-container {
+  margin-top: 103px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 215px;
+  display: inline-block;
+
+}
+.subscribe-form {
+  margin-top: 14px;
+}
+.subscribe-input {
+  width: 262px;
+  height: 61px;
+  background: #D7D7D7;
+  border-radius: 4px 0 0 4px;
+  border: none;
+  padding: 20px;
+  outline: none !important;
+}
+.subscribe-button {
+  width: 138px;
+  background: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgba(2, 138, 2, 0.65);
+  border: none;
+  border-radius: 0 4px 4px 0;
+  outline: none !important;
+}
+.buy-button {
+  margin-left: 40px;
+  width: 137px;
+  height: 61px;
+  background: #067106;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+  border: none;
+  outline: none !important;
+}
+.about .content {
+  margin-top: 61px;
+  color: #353535;
+}
+.about .subscribe-container {
+  margin-bottom: 400px;
+}
+.how-it-works {
+  background-color: #D0E6C8;
+}
+
+.footer .content-right {
+  height: 580px;
+}
+.footer .title {
+  color: #fff;
+  font-weight: 600;
+  margin-top: 40px;
+}
+.footer .subscribe-container {
+  margin: 0;
+}
